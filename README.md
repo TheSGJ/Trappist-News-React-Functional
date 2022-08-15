@@ -73,6 +73,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Deployed using vercel & netlify:
-[![Netlify Status](https://api.netlify.com/api/v1/badges/864912d0-3eab-4a64-9810-0a464a5d1f19/deploy-status)](https://app.netlify.com/sites/trappistnews/deploys)
-[![Deploy with Vercel](https://vercel.com/button)](https://trappistnews.vercel.app/)
+
+
+
