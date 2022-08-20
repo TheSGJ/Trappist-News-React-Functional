@@ -4,7 +4,6 @@ import About from "./components/About";
 import Contact from './components/Contact';
 import Home from "./components/Home";
 import Navbar from './components/Navbar';
-import Dne from './components/Dne';
 // import PopBlogsFunc from './components/PopBlogsFunc';
 import PopularBlogs from './components/PopularBlogs';
 import Services from './components/Services';
@@ -27,7 +26,6 @@ const [progress, setProgress] = useState(0)
           
           <div className="App grid place-items-center" id="App">
             <Routes>
-              <Route path="/dne" element={<Dne />} />
               <Route path="/general" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="general" category="general" country="in"/>} />
               {/* start categories */}
               <Route path="/business" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="business"category="business" country="in"/>} />
