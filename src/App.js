@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Contact from './components/Contact';
-import Home from "./components/Home";
+// import Home from "./components/Home";
 import Navbar from './components/Navbar';
 // import PopBlogsFunc from './components/PopBlogsFunc';
 import PopularBlogs from './components/PopularBlogs';
 import Services from './components/Services';
 import LoadingBar from 'react-top-loading-bar';
 const App = () => {
-const pageSize=5;
-const apiKey=process.env.REACT_APP_NEWS_API
+// const pageSize=5;
+// const apiKey=process.env.REACT_APP_NEWS_API
 const [progress, setProgress] = useState(0)
 
 
@@ -26,14 +26,14 @@ const [progress, setProgress] = useState(0)
           
           <div className="App grid place-items-center" id="App">
             <Routes>
-              <Route path="/general" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="general" category="general" country="in"/>} />
+              {/* <Route path="/general" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="general" category="general" country="in"/>} /> */}
               {/* start categories */}
-              <Route path="/business" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="business"category="business" country="in"/>} />
+              {/* <Route path="/business" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="business"category="business" country="in"/>} />
               <Route path="/sports" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="sports" category="sports" country="in"/>} />
               <Route path="/technology" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} category="technology" key="technology" country="in"/>} />
               <Route path="/health" element={<Home setProgress={setProgress} apiKey={apiKey} pageSize={pageSize} category="health" key="health" country="in"/>} />
               <Route path="/science" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="science" category="science" country="in"/>} />
-              <Route path="/entertainment" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="entertainment" category="entertainment" country="in"/>} />
+              <Route path="/entertainment" element={<Home setProgress={setProgress} apiKey={apiKey}  pageSize={pageSize} key="entertainment" category="entertainment" country="in"/>} /> */}
                {/* end categories */}
               <Route path="/about" element={<About setProgress={setProgress} />}/>
               <Route path="/contact" element={<Contact setProgress={setProgress}/>}/>
