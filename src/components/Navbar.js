@@ -35,7 +35,7 @@ const Navbar = () =>{
     return (
       <>
       <LoadingBar color='#f11946' ref={ref} />
-      <header className="sticky">
+      <header className="fixed-tp-nav">
         <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap justify-between items-center mx-auto">
           <span className="flex items-center">
@@ -176,6 +176,7 @@ const Navbar = () =>{
         </div>
       </nav>
       </header>
+      <br /> <br />
       </>
     )
   }
