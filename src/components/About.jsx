@@ -52,7 +52,7 @@ useEffect(() => {
           </div>
           
             <span style={{ display: "flex", justifyContent: "center" }}>
-            <a href="https://github.com/TheSGJ/Trappist-News-React">
+            <a href="https://github.com/TheSGJ/Trappist-News-React-Functional">
               <svg
                 style={{ height: "30px", width: "30px" }}
                 version="1.1"
