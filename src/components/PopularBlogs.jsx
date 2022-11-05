@@ -60,9 +60,7 @@ const PopularBlogs = (props) => {
                   key={element.id}
                   blogTitle={element.title.rendered}
                   blogDetail={element.excerpt.rendered}
-                  blogSource={element.parsely.meta.publisher.name}
                   
-              blogAuthor={element.parsely.meta.creator?" by "+element.parsely.meta.creator :""}
                   blogDate={element.date}
                   blogImgUrl={
                     element.jetpack_featured_media_url
