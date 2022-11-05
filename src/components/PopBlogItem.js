@@ -19,7 +19,7 @@ export default function PopBlogItem(props){
                 <a href={blogUrl} target="_blank" rel="noopener noreferrer"><h5 className="font-bold text-lg mb-3"  dangerouslySetInnerHTML={{__html: blogTitle}}/></a>
                 
                 <p className="text-gray-500 mb-4">
-                  <small>Published on <u>{new Date(blogDate).toUTCString()}</u>
+                  <small>Published on <u>{new Date(blogDate).toUTCString()}</u></small>
 
                 </p>
                 <p className="mb-4 pb-2" dangerouslySetInnerHTML={{__html: blogDetail}}/>
